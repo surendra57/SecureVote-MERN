@@ -1,0 +1,37 @@
+.cards {
+    box-shadow: 5px 6px 6px 2px #dddddd;
+  
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .mainDiv {
+    width: 40%;
+    padding:8vw 4vw;
+  }
+.title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 5vh;
+}
+
+  button{
+    padding: 0.5vw 1.5vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(42, 165, 104);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+button:hover{
+    background-color: rgb(34, 133, 83);
+}
+  
+  @media only screen and (max-width: 768px) {
+    .mainDiv {
+      width: 100%;
+    }
+  }
+  

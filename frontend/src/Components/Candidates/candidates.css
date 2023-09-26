@@ -1,0 +1,47 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    /* height: 700px; */
+}
+.side-content{
+    width: 30%;
+    background-color: rgb(233, 227, 219);
+    padding: 3vw 2vw;
+
+}
+.side-content h2 {
+    font-size: 2rem;
+    /* text-align: center; */
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.side-content h6 {
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+    /* text-align: center; */
+    font-weight: 600;
+}
+.side-content a  {
+    text-decoration: none;
+}
+.card-list{
+    width: 70%;
+    padding: 3vw 4vw;   
+}
+.card-list h3{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.card-style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1vw;
+  padding: 2vw 2vw; 
+}
+.card-style img{
+    width:  45%;
+}

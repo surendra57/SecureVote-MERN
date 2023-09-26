@@ -1,0 +1,26 @@
+.bg-body-tertiary{
+    width: 100%;
+    /* border: 1px solid black; */
+    border:none;
+    /* justify-content: center; */
+    height: 90px;
+}
+.me-auto{
+     font-size: 1.2rem;
+    font-weight: 500;
+   
+    margin-left: 41rem;
+    gap: 2vw;
+}
+
+.nav {
+    font-weight:600;
+    /* margin: 0vw 2.7vw; */
+    margin-left: 60px;
+    /* margin-right: 45px; */
+
+}
+.navbar-brand{
+    font-size: 1.5rem
+
+}
